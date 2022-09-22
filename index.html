@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/stylesheet.css">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <header  class = "row">
+        <p id = "time">Time: <span id="timer"></span></p>
+    </header>
+    <main class="column">
+        <section class="column">
+            <h1>Coding Quiz</h1>
+            <section id = "startSection">
+                <button id = "startButton">Start</button>
+            </section>
+            <section class = "questions">
+                <h2>What is the framework of a website?</h2>
+                <ul class = "answerbox">
+                    <li class = "answers" data-correct="true">HTML</li>
+                    <li class = "answers" data-correct="false">CSS</li>
+                    <li class = "answers" data-correct="false">JavaScript</li>
+                    <li class = "answers" data-correct="false">JQuery</li>
+                </ul>
+            </section>
+            <section class = "questions">
+                <h2 >What is an example of a third party web API?</h2>
+                <ul class = "answerbox">
+                    <li class = "answers" data-correct="true">JQuery</li>
+                    <li class = "answers" data-correct="false">C++</li>
+                    <li class = "answers" data-correct="false">Java</li>
+                    <li class = "answers" data-correct="false">GitHub</li>
+                </ul>
+            </section>
+            <section class = "questions">
+                <h2>Where do we store our remote repository's?</h2>
+                <ul class = "answerbox">
+                    <li class = "answers" data-correct="true">GitHub</li>
+                    <li class = "answers" data-correct="false">Gitlab</li>
+                    <li class = "answers" data-correct="false">Gitmouse</li>
+                    <li class = "answers" data-correct="false">Gitrepo</li>
+                </ul>
+            </section>
+            <section class = "questions">
+                <h2>Inside which HTML element do we put the JavaScript?</h2>
+                <ul class = "answerbox">
+                    <li class = "answers" data-correct="true"><\script></li>
+                    <li class = "answers" data-correct="false"><\scripting></li>
+                    <li class = "answers" data-correct="false"><\JavaScript></li>
+                    <li class = "answers" data-correct="false"><\js></li>
+                </ul>
+            </section>
+            <section id = "finalScoreSection">
+                <p>Enter your name to view score</p>
+                <form id = "nameinput" required >
+                    <label for="First Name" >First Name:</label> 
+                    <input type= "text" name="fName" autocomplete="off" required id = "fName"> 
+                    <br>
+                    <button type = "submit">Submit Score</button>
+                </form>
+            </section>
+            <section id="Highscores">
+                <p id = "score"></p>
+            </section>
+        </section>
+    </main>
+<script src="./assets/script.js"></script>
+</body>
