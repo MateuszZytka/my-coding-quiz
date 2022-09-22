@@ -16,6 +16,7 @@
 - THEN I can save my initials and my score
 ## Usage
 The following link will take you to the deployed webpage. On the webpage you will be able to start a quiz, incorrect answers will deduct 5 seconds from your remaining time. The amount of time you finihs the quiz with will be your final score.
+https://mateuszzytka.github.io/my-coding-quiz/
 
 ![Code-Quiz](https://user-images.githubusercontent.com/109117198/191620632-3277bc8e-351b-4897-8805-9c9293a02a22.png)
 ## Credits
